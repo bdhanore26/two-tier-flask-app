@@ -17,7 +17,7 @@ pipeline {
             steps {
                 // Build Docker image named "myapp" from the Dockerfile
                 // --no-cache ensures a fresh build so latest code changes are included
-                sh "docker build --no-cache -t myapp ."
+                sh "docker build -t myapp ."
             }
         }
 
