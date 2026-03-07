@@ -1,6 +1,6 @@
 pipeline {
     // Run the pipeline on any available Jenkins agent/node
-    agent any
+    agent {label "dev"}
 
     stages {
 
